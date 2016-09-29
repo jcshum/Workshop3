@@ -1,0 +1,106 @@
+body {
+	padding-top: 60px; /* Height of navbar. */
+	background-color: #fbfcfc;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.twitter-search {
+	width: 195px !important;
+}
+
+.full-width {
+	width: 100%;
+}
+
+/** Gray background */
+.navbar {
+	background-color: #eaecee;
+	border-bottom: 1px solid #d5dbdb;
+}
+
+/* Remove the background color and border of all navbar buttons. Make their
+color dark blue, like Facebook. */
+.navbar button {
+	background-color: transparent;
+	border: none;
+	color: #707b7c;
+}
+
+/* Make buttons slightly darker when the user hovers over it, like Facebook
+does. */
+.navbar button:hover {
+	background-color: transparent;
+	color: #22345c;
+	border: none;
+}
+
+.rounded-edges {
+	border-radius: 20px;
+}
+
+/** Adjust search button aesthetics. */
+.navbar form button {
+	background-color: white;
+	border-radius: 20px;
+	border-right: 1px solid #ccd1d1;
+	border-top: 1px solid #ccd1d1;
+	border-bottom: 1px solid #ccd1d1;
+}
+
+.navbar form button:hover {
+	background-color: white;
+	border-right: 1px solid #ccd1d1;
+	border-top: 1px solid #ccd1d1;
+	border-bottom: 1px solid #ccd1d1;
+}
+
+/* Make the "PIC" and "Tweet" buttons white. */
+.navbar .navbar-right > .btn-toolbar > .btn-group:first-child button,
+.navbar .navbar-right > .btn-toolbar > .btn-group:nth-child(2) button
+{
+	background-color: white;
+	color: #515a5a;
+	border: 1px solid #ccd1d1;
+}
+
+/* Make the "PIC" and "Tweet" buttons have a dark gray background when
+hovered over. */
+.navbar .navbar-right > .btn-toolbar > .btn-group:first-child button:hover,
+.navbar .navbar-right > .btn-toolbar > .btn-group:nth-child(2) button:hover
+{
+	background-color: #d0d3d4;
+}
+
+.post-react-style {
+	border: none;
+	color: #797d7f;
+}
+
+/** Color items specific color when hovered over. */
+.blue:hover {
+	color: #2e86c1;
+}
+
+.green:hover {
+	color: #28b463;
+}
+
+.pink:hover {
+	color: #cb4335;
+}
+
+/** Add spacing for certain elements. */
+.space a {
+	padding: 3px;
+}
+
+.space button {
+	padding-right: 44px;
+}
+
+.space button:hover {
+	background-color: transparent;
+}
